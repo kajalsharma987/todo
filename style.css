@@ -1,0 +1,60 @@
+
+
+#h1{
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px 100px ;
+  column-gap: 15px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+#input, #todo-date{
+  font-size: large;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.Deletebtn{
+  background-color: red;
+  border-radius: 8px;
+  color: aliceblue;
+  border: none;
+  font-size: large;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.Updatebtn{
+  background-color: blue;
+  border-radius: 8px;
+  color: aliceblue;
+  border: none;
+  font-size: large;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.btn-todo{
+  background-color: green;
+  border-radius: 8px;
+  color: aliceblue;
+  border: none;
+  font-size: large;
+  padding: 5px 2px;
+  cursor: pointer;
+}
+
+.todo-container{
+  margin-top: 20px;
+}
+
+.spanId{
+  font-size: large;
+  padding: 10px 5px;
+}
+
+
